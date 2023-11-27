@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+  }
+
+aside {
+    min-width: 240px;
+    height: 100%;
+    background: rgb(11, 11, 129);
+    padding: 20px 0 20px 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 100%;
+  }
+  aside .brand {
+    margin-bottom: 2rem;
+    padding-inline: 20px;
+  }
+  aside .brand img {
+    width: 150px;
+  }
+  aside li {
+    color: #fff;
+    font-weight: 300;
+    padding: 20px;
+    position: relative;
+  }
+  aside a {
+    position: absolute;
+    inset: 0;
+  }
+  aside li i {
+    width: 20px;
+    margin-right: 1rem;
+  }
+  aside .active {
+    color: rgb(209, 209, 209);
+    background-color: rgb(0, 0, 74);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
