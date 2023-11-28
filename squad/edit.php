@@ -33,7 +33,7 @@
 			    <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>">
 			
 			    <div class="modal-header">						
-					<h4 class="modal-title">Edit Employee</h4>
+					<h4 class="modal-title">Edit SQUAD</h4>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body">					

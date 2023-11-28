@@ -43,3 +43,14 @@ aside {
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
   }
+  .flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  figure{
+    padding: 20px;
+    border: solid;
+    border-radius: 20px;
+  }
